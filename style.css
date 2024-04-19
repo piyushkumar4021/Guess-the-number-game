@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  background-color: #222;
+  color: #eee;
+}
+
+::selection {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header {
+  height: 38vh;
+  border-bottom: 5px solid #eee;
+}
+
+.main {
+  height: 59vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1.5rem;
+}
+
+.btn {
+  padding: 1.5rem 3rem;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+.btn-sm {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
+}
+
+.number {
+  width: 15rem;
+  height: 14rem;
+  background-color: #eee;
+  color: #222;
+  font-size: 4.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-number {
+  display: block;
+  width: 15rem;
+  height: 8rem;
+
+  font-size: 3.8rem;
+  border: 3px solid #eee;
+  background-color: #222;
+  color: #eee;
+  outline: none;
+
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.left-side {
+  display: grid;
+}
+
+.right-side {
+  font-size: 2.2rem;
+}
+
+.guess {
+  text-align: center;
+  font-size: 4.6rem;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 40.625em) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+/* Helper Classes */
+.h-mb_6 {
+  margin-bottom: 6rem;
+}
+.h-mb_5 {
+  margin-bottom: 5rem;
+}
+.h-mb_4 {
+  margin-bottom: 4rem;
+}
