@@ -3,8 +3,6 @@ let score = 20;
 let highscore = 0;
 let won = false;
 
-console.log(secretNumber);
-
 const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
 };
